@@ -1,0 +1,32 @@
+.plan-update-container {
+  margin-top: 20px;
+}
+
+.plan-update-container button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.plan-update-container button:hover {
+  background-color: #0056b3;
+}
+
+.plan-selection-form {
+  margin-bottom: 20px;
+}
+
+/* Adjust the button styles inside the PlanSelectionForm if needed */
+.plan-selection-form button {
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+}
+
+.plan-selection-form button:hover {
+  background-color: #218838;
+}

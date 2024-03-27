@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.dropdown-container {
+  width: 200px;
+  position: relative;
+}
+
+.dropdown-label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.dropdown-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dropdown-option {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-option:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-option.selected {
+  font-weight: bold;
+}

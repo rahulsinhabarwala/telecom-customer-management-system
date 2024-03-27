@@ -1,0 +1,52 @@
+.customer-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px; /* Increased width for better layout */
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #ffffff; /* White background */
+}
+
+.customer-form .form-field {
+  margin-bottom: 20px; /* Increased spacing between fields */
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-form .form-field label {
+  font-weight: bold; /* Make labels bold */
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+.customer-form input,
+.customer-form button {
+  padding: 10px 15px; /* Adjusted padding for better touch */
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Rounded borders for inputs and button */
+  font-size: 16px; /* Increased font size for readability */
+}
+
+.customer-form input:focus {
+  border-color: #007bff; /* Highlight focus border */
+  outline: none; /* Remove default focus outline */
+}
+
+.customer-form button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 18px; /* Larger font size for button */
+  letter-spacing: 0.05em; /* Letter spacing for button text */
+}
+
+.customer-form button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: #d93025; /* Adjusted error color for contrast */
+  font-size: 0.875em; /* Keep font size for error messages */
+  margin-top: 5px; /* Space between input and error message */
+}

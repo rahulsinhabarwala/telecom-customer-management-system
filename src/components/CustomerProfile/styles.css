@@ -1,0 +1,56 @@
+/* Add these styles to styles.css */
+.customerProfile-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.customerProfile-header {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.customerProfile-detail {
+  margin-bottom: 10px;
+}
+
+.customerProfile-actions {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.customerProfile-button {
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.customerProfile-button:first-of-type {
+  margin-left: 0;
+}
+
+.customerProfile-button--danger {
+  background-color: #dc3545;
+}
+
+.customerProfile-button--success {
+  background-color: #28a745;
+}
+
+.customerProfile-reviews {
+  margin-top: 20px;
+}
+
+.customerProfile-reviewItem {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #eef;
+  border-left: 3px solid #00f;
+}
